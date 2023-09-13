@@ -1,3 +1,5 @@
+
+let NombreUsario = prompt("Ingrese su nombre"); 
 const obtenerNombreCompleto = (apellido, nombre) => {
     return apellido + ", " + nombre;
 }
@@ -27,6 +29,7 @@ while (respuestaUsuario.trim().toUpperCase() === "SI") {
         "Elusuario" +
         obtenerInformacionDelRegistro(apellidos, nombres, correo, telefono, edad, mensaje)
     );
+   
 }
 
 respuestaUsuario = prompt("¿Quieres completar un nuevo formulario?")
